@@ -39,7 +39,7 @@ const Home = () => {
 
         <div className="flex order-1 md:order-2 mt-8 md:mt-0">
           <img
-            src="/images/zoro.png"
+            src="/images/main.png"
             alt="My profile"
             className="mb-2 rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20"
             style={{ filter: "drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))" }}
