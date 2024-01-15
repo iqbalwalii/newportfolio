@@ -5,7 +5,7 @@ import HomePage from "./components/pages/HomePage";
 import SocialLinks from "./components/SocialLinks";
 import GeneralFooter from "./components/GeneralFooter";
 import AllProjectsPage from "./components/pages/AllProjectsPage";
-import AllTechsPage from "./components/pages/AllTechsPage";
+// import AllTechsPage from "./components/pages/AllTechsPage";
 import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
 
         <Route path="/projects" element={<AllProjectsPage />} />
 
-        <Route path="/technologies" element={<AllTechsPage />} />
+        {/* <Route path="/technologies" element={<AllTechsPage />} /> */}
       </Routes>
 
       <GeneralFooter />
