@@ -7,14 +7,13 @@ import GeneralFooter from "./components/GeneralFooter";
 import AllProjectsPage from "./components/pages/AllProjectsPage";
 // import AllTechsPage from "./components/pages/AllTechsPage";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 function App() {
   return (
     <>
       <ParticlesBackground />
       <SocialLinks />
       <Analytics />
-      <SpeedInsights />
+      {/* <SpeedInsights /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
 
